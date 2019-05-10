@@ -11,7 +11,7 @@ class App < Sinatra::Base
       @coach = params["coach"]
       @pg = params["pg"]
       @sg = params["sg"]
-      <p> Small Forward: <input type="text" name="sf"></p>
+      @sf = params["sf"]></p>
       <p> Power Forward: <input type="text" name="pf"></p>
       <p> Center: <input type="text" name="c"></p>
     erb :team
