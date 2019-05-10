@@ -12,7 +12,7 @@ class App < Sinatra::Base
       @pg = params["pg"]
       @sg = params["sg"]
       @sf = params["sf"]
-      <p> Power Forward: <input type="text" name="pf"></p>
+      @pf = params["pf"]
       <p> Center: <input type="text" name="c"></p>
     erb :team
   end 
