@@ -10,7 +10,7 @@ class App < Sinatra::Base
       @name = params["name"]
       @coach = params["coach"]
       @pg = params["pg"]
-      @sg = params["sg"]></p>
+      @sg = params["sg"]
       <p> Small Forward: <input type="text" name="sf"></p>
       <p> Power Forward: <input type="text" name="pf"></p>
       <p> Center: <input type="text" name="c"></p>
