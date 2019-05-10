@@ -13,7 +13,7 @@ class App < Sinatra::Base
       @sg = params["sg"]
       @sf = params["sf"]
       @pf = params["pf"]
-      <p> Center: <input type="text" name="c"></p>
+      @c = params["c"]
     erb :team
   end 
 end
